@@ -1,0 +1,48 @@
+        command
+
+git config --global user.name "krishnansurya952@gmail.com"
+git config --global user.email "krishnansurya952@gmail.com"
+git config --list 
+
+
+        to clone (from git hub to copy file to laptop)
+
+git clone (link)   -(link of code)
+ls  - (all the list file show)
+ls -a (for hidden files)
+git status - (untracked, modified, staged, unmodified)
+
+
+        add and commit
+
+git add file.name ----> git add index.html
+git add .   ----> add all the files
+git commit -m "some message"
+cd .
+cd ..
+
+
+        push command( upload local rep content to remote repo)
+
+git push orgin main  ---> (is process authecation)
+
+
+
+        init command ( used to create a new git repo)
+
+cd ..       ---> (remove all directory)
+mkdir foldername ------> mkdir localrepo      ---> (make directory)
+cd localrepo    --->( enter into localrepo)
+ls -a       
+
+git init ----> (crete a new git repo)
+
+        file add to git hub   (42.00)
+git remote add origin <-link->      (main one)
+git remote -v (to verify remote)
+git branch ( to cheack branch)
+git branch -M main (to rename branch)
+git push origin main
+git push -u origin main      ( to all operation)
+
+
