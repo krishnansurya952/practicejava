@@ -1,0 +1,247 @@
+Abstraction
+-----------
+* The process of hiding the implementation but providing only important features then it is known as abstraction.
+* We can achieve abstraction with help of abstract class and interface.
+* To achieve abstraction we are using two concepts such as.
+	1. Is-A-Relationship (inheritance)
+	2. Method Overriding (non static method)
+
+
+Abstract
+--------
+* It is a keyboard.
+* It is a modifier.
+* It is applicable for class and method. (only non static method)
+
+
+
+Abstract method
+---------------
+	Any method which is prefixed with abstract modifier then it is known as abstract method.
+	
+	Syntax to create abstract method
+	--------------------------------
+	abstract [Access modifier] returntype methodname([formal arguments])
+
+* For the abstract method there is no body (implementation block), only it contains declaration part and also it is ending with semicolon(;).
+* abstract method are also known as incomplete methods.
+
+
+
+
+abstract class
+--------------
+* Any class which is prefixed with abstract modifier the it is known as abstract class.
+* abstract class it also known as incomplete class.
+
+
+
+
+
+
+concrete method
+---------------
+* Any method which is having body / implementation block them it is known as concrete method.
+* concrete method are also known as complete method.
+
+
+
+
+
+
+
+concrete class
+--------------
+* Any class which is not prefixed with abstract modifier the  it is known as concrete class.
+* concrete class is also known as complete class. 
+
+
+
+
+final
+-----
+* It is a keyword.
+* It also a modifier.
+* It is applicable for class , method and variable.
+
+
+
+final class?
+------------
+* Any class which is prefixed with final modifier the it is known as final class.
+* We can't able to inherit final class.
+
+
+
+
+Advantage of final class
+------------------------
+	Why we need to make out class as an final class?
+	------------------------------------------------	
+	Just to avoid the inheritance concept we are making out class as an final class.
+
+
+
+
+
+
+final method 
+------------
+Any method which is prefixed with final modifier then it is known as final method.
+
+	case 1: We can inherit final method.
+
+	case 2: We can't able to override(changing the implementation) final method.
+
+
+
+
+
+final variable
+--------------
+* Any variable which is prefixed with final modifier then it is known as final variable.
+* Final variable can be classified into three type:-
+	1. final static variable.
+	2. final non static variable.
+	3. final local variable.
+
+
+final static variable
+---------------------
+* Any static variable which is prefixed with final modifier then it is known as final static variable.
+
+* We can't able to declared final static variable .If we declare the we are getting C.T.E.
+
+* We can't able to declared final static variable. If we declare then initialization must be done with the help of multi line static initializer.(MLSI)
+
+
+
+
+
+final non static variable
+-------------------------
+* Any non static variable which is prefixed with final modifier the it is known as final non static variable.
+
+* We can't able to declare final non static variable. If we declare then we are getting C.T.E.
+
+* we can't able to declare final non static variable. If we declare then initialization must be done with the help of multi line non static initialize or constructor.
+
+
+
+
+
+final local variable
+--------------------
+* Any local variable which is prefixed with final modifier then it is known as final local variable.
+
+* we can declare final local variable. But initialization must be done in the next line.
+
+
+
+
+
+
+interface
+---------
+* interface is a components in java which is use to achieve 100% abstraction and multiple Inheritance.
+
+	Syntax to create an interface
+	-----------------------------
+	[Access Modifier] interface  interfaceName
+	{
+		//Statement
+	} 
+
+
+
+
+
+case 1: Compile time error.
+
+case 2: Compile time success.
+
+notes
+-----
+In interface by default all the variable are public static final variable .(for final variable  initialization is mandatory)
+
+case 3: non static method in the interface with body (concrete method).
+
+case 4: method without body
+
+notes
+-----
+Inside the interface non static method with the body not allowed, only it is allowing non static method without body (abstract method).
+
+case 5: 
+
+notes
+-----
+we can create static method in interface from JDK1.8 version.
+
+
+
+
+Why do we need an interface?
+----------------------------
+* To achieve 100% abstraction. Concreate non static method are not allowed.
+* To achieve multiple inheritance.
+
+what all the members are inherited from an interface?
+---------------------------------------------------
+* Only static method of an interface is not inherited.
+
+
+
+
+
+
+Inheritance with respect to interface
+-------------------------------------
+case 1: Inheritance an interface by using interface
+
+example1: By using one interface we can inherit another interface by using extend keyword.
+
+notes 
+-----
+* By using interface we can't able to provide implementation for the abstract non static method.
+
+example2: Interface can inherit multiple interface at a time.
+
+notes
+-----
+* With respect to interface there is no diamond problem.
+
+Reason,
+-------
+* They don't have a Constructors
+* non static method are abstract (do not have implementation)
+* static method are not inherited.
+
+case 2: Inherited an interface by using class.
+
+example1: We can inherit another interface by using class with the help of implement keyword.
+
+notes
+-----
+* If a class inherit and interface then it should give implementation to the abstract non static method if an interface.
+
+* If the class is not ready to give implementation to the abstract non static method of an interface then it is mandatory to make that class as an abstract class.
+
+* Next level of child class is responsible for give implementation to the rest      of abstract non static method of an interface.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+	

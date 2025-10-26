@@ -1,0 +1,68 @@
+variable shadowing
+------------------
+
+	If superclass and subclass having variables with the same name but different values then it is known as variable shadowing.
+
+	Variable shadowing is applicable for both static and non static variables.
+
+	To achieve variable shadowing Is-A-Relationship is mandatory.
+
+	In variable shadowing always we are getting the output based on the reference type variable shadowing is also known as Variable hiding.
+
+
+Method shadowing
+----------------
+* If super class and sub class having methods with the same signature but different implementation then it known as method shadowing.
+
+* Method shadowing is applicable for only static methods.
+
+* To achieve method shadowing Is-A-Relationship is mandatory.
+
+* In method shadowing always we are getting the output based on the reference type method shadowing is also known as method hiding.
+
+
+
+
+
+
+
+
+
+
+Run Time Polymorphism
+---------------------
+* If the binding is achieve at the run time the it i known as run time polymorphism.
+
+* In run time polymorphism always decision is taken by the J.V.M.
+
+* To achieve runtime Polymorphism we are using method overriding concept.
+
+case 1:
+	without achieve method override concept.
+	----------------------------------------
+
+
+
+method Overriding
+-----------------
+* If super class and sub class having non static methods with the same signature but different  implementation then it is known as method overriding.
+
+* Method overriding is applicable for only non static methods.
+
+* To achieve method overriding Is-A-Relationship is mandatory.
+
+* In Method overriding always we are getting the output based on the object types.
+
+case 2:
+	with method overriding concept.
+	-------------------------------
+
+
+notes
+-----
+	While achieve method overriding, the visibility of child class method should be higher or equal to the parent class method.
+
+
+
+
+

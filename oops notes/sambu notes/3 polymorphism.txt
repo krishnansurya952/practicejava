@@ -1,0 +1,138 @@
+polymorphism
+------------
+poly-many
+morph-Behaviour/forms
+
+define
+-------
+One object will exhibit more than one behaviour then it is known as polymorphism.
+
+				or
+
+The ability of an object will exhibit more than one behaviour then it is known as polymorphism.
+
+example:-
+
+ram-->Institute --> student
+      Vijay mall--> customer
+      home-->son
+
+
+polymorphism can be classified into two types:-
+-----------------------------------------------
+
+
+1. Compile time polymorphism/ static polymorphism/ early binding
+	a. Constructor overloading.
+	b. method overloading.
+	c. variable shadowing.
+	d. method shadowing.
+
+2. Runtime polymorphism / dynamic polymorphism / late binding
+	a. Method overriding.
+
+
+method binding
+--------------
+The connection between the method call statement to the method definition then it is known method binding.
+
+eg:-
+class A{								
+	public void m1(){
+	sout("hello");
+	}
+}
+
+class Test{
+	public static void main(String args[]){
+	A a=new A();
+	a.m1();//method call statement
+	//a.m1() ---> call to public void m1 --> is a method binding process.
+	}
+}
+
+
+Compile Time polymorphism
+-------------------------
+	If the binding is achieved at the compile time then it is known as compile time polymorphism.
+
+
+
+a. Constructor Overloading
+--------------------------
+	A class having more than one constructor with the same name but different format arguments then it is known as Constructor overloading.
+
+
+
+
+
+
+
+b. Method overloading
+---------------------
+	A class having more than one method with the same name but different formal argument then it is known as method overloading.
+
+Different ways to achieve method overloading concept:-
+------------------------------------------------------
+1. By changing the number of formal arguments.
+2. By changing the order of formal arguments.
+3. By changing the datatype of formal arguments.
+
+	*Method overloading in applicable for both static and non static method.
+
+
+
+
+
+c. Variable shadowing
+---------------------
+* If super class and subclass having same variable name with different value then it is known variable shadowing.
+* Variable shadowing is applicable for static and non static variable.
+* To achieve variable shadowing Is-A-Relationship is mandatory.
+* To variable shadowing we are getting the output based on the reference type.
+
+
+
+
+
+d. Method shadowing / Method hiding
+-----------------------------------
+* If super class and sub class having same methods with same signature but different implementation then it is known as method shadowing.
+* Method shadowing is applicable for static methods.
+* To achieve method shadowing Is-A-Relationship is mandatory.
+* In method shadowing we are getting the output based on the reference type.
+
+
+
+Run time polymorphism
+---------------------
+	If the binding is achieve at the run time then it is known as run time polymorphism.
+
+	To achieve run time polymorphism we are using method overriding concept.
+
+a. Method Overriding
+--------------------
+* If super class and sub class having same non static method with same signature but different implementation the  it is known as method overriding.
+* Method overriding is applicable for only non static method.
+* To achieve method overriding Is-A-Relationship is mandatory.
+* In method overriding we are getting the output based on the object type.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

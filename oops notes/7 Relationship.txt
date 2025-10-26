@@ -1,0 +1,106 @@
+Relationship 
+------------
+	The Connection between the object is called as relationship.
+	We can classified relationship into 2 type based on the type of relation.
+	1> has-a relationship
+	2> Is-a relationship
+
+
+
+Has-a relationship
+------------------
+* The Connection between the object where Dependency Exist is called Has-a-relationship.
+			or
+
+* The Dependency between the object is called as Has-a-relationship.
+
+	eg:-(real time example) 
+
+	car-engine
+	fish-water
+	remote-battery
+	human-oxygen
+	school-student
+
+	Has-a-Relationship
+	------------------
+		|
+		|--->level of dependency
+		|
+	-------------------
+	|		  |
+   Composition	    Aggregation
+
+
+* Based on the level of dependency we classified Has-a relation into two types:-
+	1.Composition
+	2.Aggregation
+
+
+Composition
+-----------
+* The dependency between the object is in such a way one object can not exists without another object called as Composition.
+* In java we can achieve composition with the help of early instantiation.
+
+
+What is early instantiation?
+----------------------------
+* It is a process where one object is created inside another and initialize in a same line.
+
+
+notes
+-----
+
+* We can represent composition by as symbol.
+	 /\
+	/##\_______________________
+	\##/		composition
+	 \/
+
+
+Aggregation
+-----------
+* The dependency between the object is in such a way that one object can exists without another object is called as Aggregation.
+* We can achieve Aggregation by using lazy instantiation technique.
+
+	eg:-
+	mobile-sim
+	cup-coffee
+	paper-pen
+	bike-kicker
+	bill-dishes.
+
+symbol
+------
+
+	 /\
+	/  \___________________
+	\  /	    Aggregation
+	 \/
+
+
+
+What is lazy instantiation?
+---------------------------
+* The process where the object which is present inside another object can be initialize according to the programmer wish.
+* Here we achieve initialization by using method.
+
+
+
+Is-a Relationship
+-----------------
+	The Connection between the object which is similar to parent and child relationship  is called as Is-a-relationship.
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

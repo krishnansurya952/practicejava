@@ -1,0 +1,299 @@
+Is-a relationship
+-----------------
+* The connection between two or more object which is similar to parent and child relationship than it is known as Is-a relationship.
+
+* we can achieve with the help of inheritance concept.(how to achieve Is-a Relationship?)
+
+Inheritance
+-----------
+* The process of one class acquiring all the properties of from another class  then it is known inheritance.
+* To achieve inheritance we are using two keywords:-
+	1. extends keyword
+	2. implement keyword
+
+
+Notes
+-----
+* parent class also known super class or base class. 
+* child class also known sub class or class derived.
+* private members, constructor and multiline initializers will not be inherited for the next child class.
+
+Type of inheritance
+-------------------
+1. single level inheritance.
+2. multi level inheritance
+3. hierarchical inheritance.
+4. multiple inheritance.(not possible)
+5. hybrid inheritance.
+
+
+single level inheritance
+------------------------
+* one parent class is having only one child class then it known as single level inheritance.
+			
+			or
+
+* Inheritance of only one level then it is said to be single level inheritance. 
+
+
+notes
+-----
+* with the help of parent class reference variable we can access only parent class property but we can't able to access child class properties.
+
+* With the help of child class reference variable we can access both parent and child class properties.
+
+multi level inheritance
+-----------------------
+* one parent class is having more than one child class at the different level then it is known as multi level in heritance.
+	
+				or 
+
+* Inheritance of more than one level then it is known as multi level inheritance.
+
+
+Hierarchical inheritance
+------------------------
+* one parent having more than  one child in the same level is called as hierarchical inheritance.
+
+
+multiple inheritance
+--------------------
+* child is having more than one parent is called multiple inheritance.
+* In java with respect to class multiple inheritance not possible but we can achieve through interface.
+* Because of diamonds problems multiple inheritance can not be possible.
+
+
+Hybrid inheritance
+------------------
+* it is a combination of multiple inheritance and hierarchical inheritance.
+* all inheritance are hybrid inheritance.
+* hybrid inheritance is possible in same case and not possible in some case. Because of multiple inheritance environment.
+
+
+static variable and static method inheritance?
+----------------------------------------------
+* yes, it is inherited.
+
+static multiline initializer are inherited?
+-------------------------------------------
+* no, not inherited but they execute themself during class loading process.
+
+
+Constructor Chaining
+--------------------
+* It is a process where one constructor is calling another constructor called as constructor chaining.
+
+* we can achieve constructor chaining using two important calling statement that is this call statement (this([data])) and super call statement
+	-------------------		       --------------------
+(super([data])).
+
+
+
+this calling statement
+----------------------
+		syntax
+		------
+		this([data]);
+
+* this call statement is use to call the same class constructor .
+* we should use this call statement inside the constructor body.
+* it should use as the first statement inside the constructor body.
+* we can not use this call statement and super call statement together.
+* if we are having n constructor we can use n-1 this call statement.
+* whenever this call statement is added load instruction is remove.
+
+
+super call statement
+--------------------
+* Whenever a class is extending another class or inheriting  another class super call statement is added inside the child class constructor (no argument super call statement) by the compile.
+
+* load instruction will be after super call statement.
+* [this call statement use to call same class only]
+
+What is super call statement?
+-----------------------------
+* super call statement is a statement which is use to call the parent class constructor.
+* super call statement also help to load parent class non static members into the child class object.
+* super call statement also help to pass the data member for the initialization of parent class.
+
+can we inherited non static variable and non static method?
+-----------------------------------------------------------
+Yes, non static variable and non static method are inherited.
+
+
+Object loading process
+----------------------
+* Whenever class loading process
+* new keywords will create block of memory in the heap area.
+* One's constructor called all the non static methods and non static multiline initializer will be loader inside the object block.
+* All the non static variable will be loaded inside the object block with the default values.
+* All the non static initializer both single line and multi line will be execute from top to bottom approach.
+
+what is inherited?
+------------------
+* static variable
+* static method
+* non static variable
+* non static method
+* final variable
+* final method
+
+
+what is not inherited?
+----------------------
+* private member
+* constructor
+* multi line initializer(both static and non static not inherited but executed during loading process)
+* Final class.(but final method inherited)
+
+
+
+
+multiple Inheritance
+--------------------
+* A subclass is having more than one parent is called as multiple inheritance.
+* In java with respect to class we can not achieve multiple inherited we face the problem called as diamond problem.
+* But we can achieve multiple inheritance by using interface.
+*Ambiguity   new();
+-------------------
+reason is Ambiguity during constructor call from child to parent.
+
+
+
+understanding object reference
+------------------------------
+
+
+
+non preemptive type casting (very class are also called ad non preemptive datatype)
+---------------------------
+* The process of converting one non preemptive data type into another non preemptive is called non preemptive type casting  or derived type casting.
+* we can only achieve non preemptive type casting if Is-a-relationship exists or common child relationship exists.
+
+
+with Is-a-relationship
+----------------------
+vehicle v1=new car();// compile time success
+
+
+without Is-a-relationship
+-------------------------
+vehicle v1=new car();// compile time error
+
+
+
+
+
+* In non preemptive type casting we have two type:-
+---------------------------------------------------
+	1. up casting
+	2. down casting
+
+
+what is up casting?
+-------------------
+* The process of converting child object to parent is called up casting.
+
+		eg:-    bank
+			----
+			 |
+	 --------------------------------
+	 |		 |  		|		
+	SBI	        axis	     ICICI	
+
+	parent<----child
+	bank b1=new SBI();//cts
+	bank b2=new axis()//cts
+
+* upcasting is compile time success or Implicit process.
+				       --------
+					   |__not dependent on type of process.
+
+
+Why we need upcasting (or) advantage of upcasting?
+--------------------------------------------------
+* Generalization
+  --------------
+	When a programmer is not show what object is given to him at the run time he will be choosing up casting.
+
+* The main advantage of up casting is Generalization.
+* Generalization means super most container having capability to any of it child address (object).
+
+
+what is the disadvantage of upcasting?
+--------------------------------------
+* with the parent reference we can not access child member.
+* we can overcome this problem by down casting.
+
+
+what is down casting?
+---------------------
+* The process of converting parent object into child object is called down casting.
+* we can't achieve down casting directly we get compile time error.
+* we can only achieve only down casting with the help of typecast operator.
+							 -----------------
+
+
+	eg:-
+	x ref=new y();//upcasting 
+	y res=(y)ref;//overcoming by downcasting
+
+
+
+	legend
+	------
+	a ref=new b();
+
+------> c res=(c)ref;//C.T.S but 
+R.T.E ([class cast Exception]);
+
+
+what class cast exception?
+--------------------------
+* It is a run time problem which we will face during down casting.
+* whenever programmer is down casting to a specify objects if the instance member is not present in the reference we face class cast exception.
+
+
+instance of operator
+--------------------
+* It is a binary operator.
+* The return type of this operator is Boolean
+ 
+	syntax
+	------
+	ref instanceof type;   (true,false)
+
+Scanner class
+-------------
+* It is a built in class, defined in java.util package.
+* Scanner class has lot of built in non static methods which helps the programmer to read the data from the keyword in the desired format.
+
+notes
+-----
+* If we are using any built in classes apart from lang package importing is mandatory.
+* The class which is present inside the lang package no need to import because by default this class is imported.  
+
+
+
+
+					        
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

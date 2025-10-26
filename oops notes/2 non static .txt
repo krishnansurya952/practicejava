@@ -1,0 +1,35 @@
+non static
+----------
+	The resource which is not same for all the object should be represent by non static.
+
+with respect to non static we are having there types:-
+------------------------------------------------------
+	*non static variable
+	*non static methods
+	*non static initializers
+		*Single line non static initializer.
+		*Multi line non static initializers.
+
+What is non static variable?
+----------------------------
+	Any global Variable which is not prefixes with static is called as non static Variable.
+
+	We can not say local variable as non static variable.
+
+What is non static method?
+--------------------------
+	Any method which is not prefixes with static is called non static method.
+
+What is Single line non static initializers?
+--------------------------------------------
+	Any non static variable initializers in single line is called as Single line non static initializers.
+
+What is multi line non static initializers?
+-------------------------------------------
+	A block which is not prefixes with any think is called as non static initializers.
+
+	Any block which is not prefixes with any think is called as non static multi line initializers it is also called as anonymous.
+
+
+
+		

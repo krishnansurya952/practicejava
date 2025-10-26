@@ -1,0 +1,50 @@
+Is-a relationship
+-----------------
+* The connection between the object which is similar to parent and child relationship is called as Is-a relationship.
+
+What is inheritance?
+--------------------
+* The process of acquiring states and behaviour of one object into another object is called as inheritance.
+* In java we can achieve inheritance by using the keyword such as:-
+	1. extends
+	2. implement
+
+Types of inheritance
+--------------------
+* Single inheritance
+* Multi inheritance
+* hierarchical inheritance
+* multiple inheritance
+* hybrid inheritance
+
+single inheritance
+------------------
+	Inheritance of only one level is called as single level inheritance.
+
+multi level inheritance
+--------------------
+	Inheritance of more than one level is known as multi level inheritance.
+
+hierarchical inheritance
+------------------------
+	If a parent(super class) has more than are child(sub class) at these same level then it is known as hierarchical inheritance.
+
+multiple inheritance
+--------------------
+	If a subclass(child) has more than one parent (super class) the its is know as multiple inheritance.
+	
+	In java with respect to class we cannot achieve multiple inheritance.(we get diamond problem)
+
+	But we can achieve with help of interface.
+
+Hybrid Inheritance
+------------------
+	The combination of multiple inheritance and hierarchical inheritance is known as hybrid inheritance.
+
+	All the inheritance is hybrid inheritance we can achieve hybrid inheritance some case and can not achieve some case.(if multiple inheritance involved).
+
+can we inherit static variable?
+-------------------------------
+Yes, we can inherit.
+
+

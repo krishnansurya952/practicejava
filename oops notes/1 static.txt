@@ -1,0 +1,53 @@
+Static
+------
+*It is a key word.
+*The resource which remains same for all the object sub be represented by static.
+
+with respect to static there are three type:-
+---------------------------------------------
+*static variable.
+*static methods.
+*static Initializers
+	a>Single line static Initializers.
+	b> Multi line static Initializers.
+
+static Variable
+---------------
+	Any variable which is declared in global Area and prefix with static is called as static Variables.
+	local variable can not be prefix with static.
+
+
+What is static methods?
+-----------------------
+	Any method which is prefix with static is called as static method.
+
+what is initializer?
+--------------------
+* Initializer are the startup instruction.
+* These are the instruction which will be executed during the beginning stage.
+
+
+what is single line static initializers?
+----------------------------------------
+	Any static variable which as been initialize in a same line or a single line is called as single line static initializers.
+	eg:-
+	static int a=45;
+	static Strings="surya";
+
+
+
+what is multi line static initializer?
+--------------------------------------
+*It is a block which's only prefix with static .
+*The area present inside static block is called as static context.
+	eg:-
+	static{
+		int x=10;
+		}
+
+
+
+
+
+
+

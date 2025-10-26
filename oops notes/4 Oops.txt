@@ -1,0 +1,94 @@
+Oops: Object Oriented Programming System
+----------------------------------------
+
+Object
+------
+	Anything which is having Existence is called as Object .
+	
+	eg:- car, bike, book, mobile, chair, pen ..etc.
+
+	We are having two properties  present inside the object that is 
+
+
+properties of object
+--------------------
+	|
+	|	
+	|--------States / Data Member/ Attributes 
+	|
+	|
+	|--------Behaviours / Features/ Function
+	|
+
+How many step are there to create any object?
+---------------------------------------------
+	To create any Object we should follow two important step:-
+
+1. Create a Blueprint.
+2. Convert Blueprint into object or 
+	Instantiation or
+   create an instance of class. 
+Note
+----
+* Class represent blueprint for an Object.
+* Every class in java is a non preemptive Datatype.
+* The resources which is same for every object should be represented by static.
+* Otherwise it will be non static.
+
+The states of the object should be represented by non static variable and the behaviours of the object should represent by non - static method.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Can be represent states and behaviours by static?
+-------------------------------------------------
+Yes, it depends upon the requirement.
+
+
+Object creation syntax
+----------------------
+	new className([actual arg]);
+	    -----------------------
+		      |
+		      |
+		      |----->Constructor call
+
+* Class is a non preemptive datatypes.
+
+
+What is new Keyword?
+--------------------
+* It is a keyword which help to create object block in the heap area.
+				       ------------
+* It is a unary operator which will accept constructor call and helps to return address of the object.
+
+	static stand in class block.
+			-----------
+	non static stand in Object block.
+			    ------------
+
+
+Stage 
+------
+1. Req Sheet
+2. Create a Blueprint
+3. Create Obj
+
+
+notes
+-----
+	Inside static block we cannot access non static directly with the help of dot operator we can access.
+
+	Inside static block we can access non static members only with the help Object Reference. (because non static member are many).
+
+
+
+
+
+
+
+
+
+
+

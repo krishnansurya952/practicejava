@@ -1,0 +1,21 @@
+J.D.K Memory Architect
+----------------------
+	Whenever way execute the program following memory block will be created at the run time.
+
+class Loading process
+---------------------
+1. A block of memory is created along with a class Name inside Class Static area called as class block.
+
+2. All the methods and multi line initializers will be loaded inside the methods area.
+
+3. A table is created inside the class block.
+
+4. The members which is static in method area will be loaded inside the table.
+
+5. All the static variables will be loaded inside the class block with default values.
+
+6. All the static initializers will be executed from top to bottom approach.
+
+7. Once all the static initializers execution is completed  main methods is called.
+
+

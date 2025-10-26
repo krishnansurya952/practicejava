@@ -1,0 +1,10 @@
+Abstraction
+-----------
+* To understand Abstraction in a butter ways we have to understand three important terminologies that is:-
+	* Service specifier
+	* Service Provider
+	* End users.
+
+Service Specifier
+-----------------
+	The person who will specifier what help he can do for the end user is called as Service Specifier. respresent Abstraction.

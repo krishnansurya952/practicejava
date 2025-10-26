@@ -1,0 +1,49 @@
+syntax for Constructor
+----------------------
+
+[access Modifiers] className([formal arg]){
+	[stmts]
+	[stmts]
+}
+
+
+Constructor
+-----------
+* It is a special block having name similar to the className.
+* The main purpose of using constructor is to load all the non static members inside the object block.
+* Constructor also help to initialize states.
+
+
+
+
+can we have modifier for the constructor?
+-----------------------------------------
+		or
+can we create static constructor?
+---------------------------------
+No, Constructor does not have modifier.
+
+
+
+notes
+-----
+	* In all the constructor body 1st Instruction is L.I (load Instruction) add by compiler at compile time to load all non static member into object block.
+
+	* Whenever a programmer forget to create a constructor in the class complier will and no argument default constructor at the compile time.
+-------------------------------------------------
+
+
+
+this
+----
+* It is a keyword.
+* It cannot be use inside the static block.
+* we should use this keyword only inside non static block.
+		----	
+* It contains current executing object address.
+	      --------------------------------
+
+When we use this keyword?
+-------------------------
+* We use this keyword when local member and global member names are same.
+

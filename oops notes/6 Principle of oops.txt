@@ -1,0 +1,111 @@
+Principle of Oops
+-----------------
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+
+
+what is encapsulation?
+----------------------
+* The process of rapping states and behavior together is called encapsulation.
+
+how to achieve?
+---------------
+* In java we can achieve encapsulation with the help of class.
+				       ----------------------
+
+
+
+
+Access Modifier
+---------------
++ public 
+- private
+  default 
+# protected
+	
+	We can use them with
+	--------------------
+		* class
+		* Variable
+		* Methods
+		* Constructor
+
+
+Advantages of Encapsulation
+---------------------------
+* The main advantage of encapsulation is data hiding.
+* We can achieve data hiding with the help private access modifier.
+					   -------
+
+what is private?
+----------------
+* It is a keyword
+* It is a also a Access Modifier.
+* Any member which is prefixes with private is having visibility only with in the class.
+* We cannot access private member out side the class.
+
+
+Can we Access private resource with in the class?
+-------------------------------------------------\
+Yes.
+
+
+
+what is data hiding?
+--------------------
+* The process restricting direct access by providing indirect access , secured access, verified and validated access through the helper method is called data hiding.
+
+
+character getter()
+------------------
+* Access modifier should be public.
+* It should be non static method.
+* It should have the return type same as the datatype which is hided.
+* It should be no argument method.
+* We create get her method to make a data readable.
+
+character setter()
+------------------
+* Access Modifier should be public.
+* It should be non static method.
+* It should have return type void.
+* It should be parameterized methods.
+* We should create set() to make the data member readable.
+
+
+What is singleton class?
+------------------------
+* The class which allows only one object creation is called as singleton class.
+* It is being use in the field of database and multithreading / multithreads.
+
+
+what is java Bean class and pojo class?
+---------------------------------------
+* A class which follow the below give rules is called pojo class.
+* It should be public class.
+* It should be have private data member.
+* It should have public constructor which is no argument.
+* It should have public setter and getter.
+
+
+Encapsulation Important Question
+--------------------------------
+* What is Encapsulation in java? what is the advantage of Encapsulation.
+* How to achieve encapsulation in java? Give an example?
+* What is data hiding in java?
+* how to achieve data hiding programmatically?
+* What is a Tightly encapsulation class in java or java Bean class?
+* What are getter and setter method in java?
+* What is singleton class?
+* Real time Example?
+
+
+
+
+
+
+
+
+

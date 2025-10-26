@@ -1,0 +1,83 @@
+Example 2
+---------
+class inheriting multiple interface.
+
+
+	The diamond problem is solved by implementing multiple interface by the class at a time.
+
+
+Reason
+------
+* Non static methods are not implemented in an interface.
+* Static method are not inherited.
+
+
+example 3
+---------
+class can inherit interface and class at a time.
+
+
+Rule
+----
+Use the extends first and then implements.
+
+Notes
+-----
+	Class can inherit multiple interface but it can't inherit multiple class at a time.
+
+	Interface can't inherit a class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to create static methods?
+-----------------------------
+
+
+Notes
+-----
+Inherit can't herit from the class.
+
+Reason
+------
+	class has concrete non static method, so class can't be a parent to the interface.
+
+Notes
+-----
+Inside the interface constructor and multi line initializer not allowed.
+
+
+Type of interface
+-----------------
+* Interface can by classified into 3 types.
+	*Regular
+	*functional interface
+	*Marker interface / Empty interface /tag interface.
+
+
+1. The interface which contain more than one abstract method then it is known as Regular interface.
+	example: Collection interface, map interface.
+
+2. The interface which contain only one abstract method then it is known as functional interface.
+
+3. The interface which don't have any abstract method then it is known as marker interface/ empty interface /tag interface. 
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Final
+-----
+* It is a keyword as well has modifier.
+* We can use final with class, variable, methods.
+* Final represent constant.
+
+
+What is final class?
+--------------------
+* A class prefixes with final is called as final class.
+* In java we can not inherit final class.
+
+Final Variable?
+---------------
+* Any variable which prefixes with final is called as final variable.
+* we should represent final variable in upper case.
+* Once the value is assign for the final variable. We can not change we can get C.T.S(error)
+* We can not declare global final variable.
+* Suppose if final / global variable are declare it can be initializes by using respective multiline initializer.
+* We can have local final variable declare it is C.T.S.
+* Suppose if final local variable declare we can initializes in the future.
+
+
+
+Final method?
+-------------
+* Any method prefixes with final is called as final method.
+* We can inherit final method.
+* We can have final method, we can inherit final method, but we can not Override final method.
+
